@@ -1,0 +1,212 @@
+body{
+    background-color: black;
+    font-family: 'Nunito','Sans';
+    font-weight: 200;
+    padding: 10px;
+}
+
+.navbar{
+    width: 100%;
+    text-align: center;
+    color: rgb(38, 131, 38);
+}
+.navbar-text{
+    padding: 1rem;
+    font-size: 50px;   
+    color: whitesmoke;
+    margin-top: 1rem;
+}
+
+
+.navbar > p{
+    padding: 1rem;
+    text-align: center;
+    font-size: 23px;   
+    width: 60%;
+    margin: auto;
+}
+
+.navbar > p::first-letter{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+
+
+.content{
+    /* background-image: url("metal.jpg"); */
+    border-radius: 13px;
+    height: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 0.87rem;
+    display: flex;
+}
+
+
+.logo-containter{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 6%;
+}
+
+
+
+.tv-box{
+    width:100%;
+    background-color: black;
+    display: inline-block;
+}
+
+.tv-box > img , .tv-box > video{
+    width: 100%;
+    height: 100%;
+}
+
+.tv-controls{
+    margin: auto;
+    width: 50%;
+    /* background-image: url("wood.jpg"); */
+    height: 100%;
+    /* display: inline-block; */
+    border-radius: 13px;
+}
+.info{
+    width: 100%;
+}
+
+.info > p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    padding: 1rem;
+}
+
+.info-screen{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 42%;
+    background-color: black;
+    padding: 1rem;
+}
+
+.info-screen > p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(55, 155, 55);
+    margin: 0px;
+}
+
+
+.v-gap{
+    width: 10%;
+}
+
+.h-gap{
+    height: 10%;
+    padding: 10px;
+}
+.btn-controls{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn{
+    padding: 5px;
+    width: 50%;
+    border-radius: 7px;
+    border: 2px solid rgb(19,143,19,222);
+    /* -webkit-appearance: none;
+    -moz-appearance: none */
+}
+
+.btn > img{
+    width: 100%;
+    height: 3vh;
+}
+
+button{
+    /* background-color: rgb(219, 219, 219); */
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-color: black;
+}
+.btn:hover{
+    background-color: rgb(19,87,19,19);
+}
+.video-player{
+    display: none;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .content{
+        /* background-image: url("metal.jpg"); */
+        border-radius: 13px;
+        /* margin-right: auto;
+        margin-left: auto; */
+        width: 100%;
+        
+    }
+    .navbar > p{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content{
+        /* background-image: url("metal.jpg"); */
+        border-radius: 13px;
+        height: 60vh;
+        width: 100%;
+        
+    }
+    .navbar > p{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .content{
+        /* background-image: url("metal.jpg"); */
+        border-radius: 13px;
+        height: 40vh;
+        width: 75%;
+    }
+    .navbar > p{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .content{
+        /* background-image: url("metal.jpg"); */
+        border-radius: 13px;
+        height: fit-content;
+        width: 75%;
+    }
+    .navbar > p{
+        width: 70%;
+    }
+}
